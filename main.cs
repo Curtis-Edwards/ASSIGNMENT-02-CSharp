@@ -8,7 +8,7 @@ class Program
         int radius;
         double pi = Math.PI;
         double area;
-                
+
         Console.WriteLine("Please enter the radius of the circle");
         Console.WriteLine("");
 
@@ -16,7 +16,7 @@ class Program
         radius = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("");
         area = (pi * radius) * radius;
-      
+
         Console.WriteLine("Area: " + area.ToString("0.00") + "cm²");
 
         Console.WriteLine("\nDone.");
